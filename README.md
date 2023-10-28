@@ -4,6 +4,8 @@
 
 [Дока наша](https://docs.google.com/document/d/1U6PXU9S1H9UYg6vOdKlbHRTDxDVNCQ8lelEw45oxRsc/edit?usp=sharing)
 
+[Отношения Рыжего и Ванькова](FrontBackRelation.md)
+
 В проекте используется python 3.10.12
 
 ## Как начать работу с репозиторием. Или не рабочий pytest
