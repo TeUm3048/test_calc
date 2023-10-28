@@ -79,9 +79,12 @@ class Natural:
         return not (len(self) == 1 and self.data[0] == 0)
 
     def increment(self) -> None:
-        self.data = Natural(str(int(self) + 1)).data
+        from .increment import increment
+        increment(self)
+        # self.data = Natural(str(int(self)+1)).data
+
         # РАСКОММЕНТИТЬ ЕСЛИ ПОНАДОБИТСЯ А НИЖЕ НЕ НАПИСАН КОД
-        pass
+
 
     def add(self, other: Natural) -> Natural:
         return Natural(str(int(self) + int(other)))
